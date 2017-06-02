@@ -51,5 +51,5 @@ function getValueFromAPI(value, ratesFrom, ratesTo) {
 }
 
 function printResult(res) {
-	$('section.to output').val(res);
+	$('section.to output').val(Math.round(res*100)/100);
 }
